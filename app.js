@@ -51,7 +51,7 @@ b.remove(egyKonyv);
 console.table(konyveim)
 
 //frissítés
-let ujkonyv = b.find({
+let ujkonyv = b.findOne({
     cim: 'Alma'
 })
 ujkonyv.szerzo='Ujszerzo';
